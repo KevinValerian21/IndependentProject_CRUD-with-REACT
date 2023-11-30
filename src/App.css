@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Opsional: Untuk memberikan margin antara kartu */
+.grid .card {
+  width: calc(50% - 10px); /* 50% lebar setiap kartu, dikurangi margin */
+  margin-bottom: 20px;
+}
